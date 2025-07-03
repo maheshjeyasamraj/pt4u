@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  section {
+    padding-top: 80px;
+  }
+  
+  /* Navbar */
+  .navbar-brand img {
+    transition: transform 0.3s ease;
+  }
+  .navbar-brand img:hover {
+    transform: scale(1.05);
+  }
+  
+  .navbar-nav .nav-link {
+    color: #1c596a;
+    font-weight: 500;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #ff5605;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+  }
+  
+  /* Services Cards */
+  #services .border {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  #services .border:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Transformation Images */
+  #transformations img {
+    transition: transform 0.3s ease;
+  }
+  #transformations img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Buttons */
+  .btn {
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Footer */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 2.2rem;
+    }
+  
+    .navbar-brand img {
+      height: 40px;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 10px 16px;
+    }
+  
+    .rounded-4 {
+      border-radius: 1rem !important;
+    }
+  
+    .vh-100 {
+      height: auto !important;
+      padding: 100px 0;
+    }
+  }
+    
+  
